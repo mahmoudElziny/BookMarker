@@ -74,7 +74,7 @@ function displaybook(array){
         marks +=`
             <tr>
                 <td>${array[i].name}</td>
-                <td><a href="${array[i].url}"><button class="btn btn-primary">Visit</button></a></td>
+                <td><a href="${array[i].url}" target="_blank"><button class="btn btn-primary">Visit</button></a></td>
                 <td><button onclick="updatebook(${i})" class="btn btn-info">Update</button></td>
                 <td><button onclick="deletebook(${i})" class="btn btn-danger">Delete</button></td>
             </tr>    
